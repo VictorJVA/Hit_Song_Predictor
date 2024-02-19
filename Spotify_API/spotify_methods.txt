@@ -1,0 +1,28 @@
+# Tracks
+
+## Get Audio features for a track(valence, danceability, energy, etc.)
+
+sp.audio_features('7qiZfU4dY1lWllzX7mPBI3')
+
+## Get popularity of a track
+sp.track('7qiZfU4dY1lWllzX7mPBI3')['popularity']
+
+## Get the audio analysis of a track
+sp.audio_analysis('7qiZfU4dY1lWllzX7mPBI3')
+
+# Artists
+
+## Get artist info
+sp.artist('0du5cEVh5yTK9QJze8zA0C')
+
+## Get artist related artists
+sp.artist_related_artists('0du5cEVh5yTK9QJze8zA0C')
+
+# Playlists
+
+## Get playlist info
+sp.playlist('37i9dQZF1DXcBWIGoYBM5M')
+
+
+
+
